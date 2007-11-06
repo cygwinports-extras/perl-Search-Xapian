@@ -1,0 +1,104 @@
+perl-Search-Xapian
+------------------------------------------
+Perl bindings for the Xapian search engine library
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libxapian15-1.0.4-1
+  perl-5.8.8-4
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-5.8.8-4
+
+Canonical website:
+  http://www.xapian.org/
+  http://search.cpan.org/dist/Search-Xapian/
+
+Canonical download:
+  http://www.oligarchy.co.uk/xapian/1.0.4/
+  http://search.cpan.org/CPAN/authors/id/O/OL/OLLY/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Search-Xapian-1.0.4.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Search-Xapian-1.0.4.0-X.cygport all
+
+This will create:
+  /usr/src/perl-Search-Xapian-1.0.4.0-X-src.tar.bz2
+  /usr/src/perl-Search-Xapian-1.0.4.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Search-Xapian.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/BM25Weight.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/BoolWeight.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/Database.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/Document.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/ESet.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/ESetIterator.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/Enquire.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/MSet.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/MSet/Tied.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/MSetIterator.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/PerlStopper.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/PositionIterator.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/PostingIterator.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/Query.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/QueryParser.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/RSet.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/SimpleStopper.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/Stem.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/Stopper.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/TermGenerator.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/TermIterator.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/TradWeight.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/ValueIterator.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/Weight.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/WritableDatabase.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Search/Xapian/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Search/Xapian/Xapian.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Search/Xapian/Xapian.dll
+  /usr/share/doc/Cygwin/perl-Search-Xapian-1.0.4.0.README
+  /usr/share/doc/perl-Search-Xapian-1.0.4.0/Changes
+  /usr/share/doc/perl-Search-Xapian-1.0.4.0/README
+  /usr/share/man/man3/Search.Xapian.3pm.gz
+  /usr/share/man/man3/Search.Xapian.BM25Weight.3pm.gz
+  /usr/share/man/man3/Search.Xapian.BoolWeight.3pm.gz
+  /usr/share/man/man3/Search.Xapian.Database.3pm.gz
+  /usr/share/man/man3/Search.Xapian.Document.3pm.gz
+  /usr/share/man/man3/Search.Xapian.Enquire.3pm.gz
+  /usr/share/man/man3/Search.Xapian.PositionIterator.3pm.gz
+  /usr/share/man/man3/Search.Xapian.PostingIterator.3pm.gz
+  /usr/share/man/man3/Search.Xapian.QueryParser.3pm.gz
+  /usr/share/man/man3/Search.Xapian.Stem.3pm.gz
+  /usr/share/man/man3/Search.Xapian.TermGenerator.3pm.gz
+  /usr/share/man/man3/Search.Xapian.TermIterator.3pm.gz
+  /usr/share/man/man3/Search.Xapian.TradWeight.3pm.gz
+  /usr/share/man/man3/Search.Xapian.ValueIterator.3pm.gz
+  /usr/share/man/man3/Search.Xapian.Weight.3pm.gz
+  /usr/share/man/man3/Search.Xapian.WritableDatabase.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Search-Xapian.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.0.4.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

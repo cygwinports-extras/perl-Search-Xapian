@@ -1,0 +1,4 @@
+category: Perl
+requires: cygwin libxapian15 perl
+sdesc: "Perl Xapian search engine bindings"
+ldesc: "Perl bindings for the Xapian search engine library"
