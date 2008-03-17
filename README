@@ -3,45 +3,42 @@ perl-Search-Xapian
 Perl bindings for the Xapian search engine library
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  libxapian15-1.0.4-1
-  perl-5.8.8-4
+  cygwin-1.5.25-7
+  libxapian15-1.0.5-1
+  perl-5.10.0-3
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.7-1
+  cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.8-4
 
 Canonical website:
   http://www.xapian.org/
   http://search.cpan.org/dist/Search-Xapian/
 
 Canonical download:
-  http://www.oligarchy.co.uk/xapian/1.0.4/
+  http://www.oligarchy.co.uk/xapian/1.0.5/
   http://search.cpan.org/CPAN/authors/id/O/OL/OLLY/
 
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Search-Xapian-1.0.4.0-X-src.tar.bz2
+  unpack perl-Search-Xapian-1.0.5.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Search-Xapian-1.0.4.0-X.cygport all
+  cygport ./perl-Search-Xapian-1.0.5.0-X.cygport all
 
 This will create:
-  /usr/src/perl-Search-Xapian-1.0.4.0-X-src.tar.bz2
-  /usr/src/perl-Search-Xapian-1.0.4.0-X.tar.bz2
+  /usr/src/perl-Search-Xapian-1.0.5.0-X-src.tar.bz2
+  /usr/src/perl-Search-Xapian-1.0.5.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Search-Xapian.sh
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/BM25Weight.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/BoolWeight.pm
@@ -69,11 +66,9 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/Weight.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Search/Xapian/WritableDatabase.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Search/Xapian/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Search/Xapian/Xapian.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Search/Xapian/Xapian.dll
-  /usr/share/doc/Cygwin/perl-Search-Xapian-1.0.4.0.README
-  /usr/share/doc/perl-Search-Xapian-1.0.4.0/Changes
-  /usr/share/doc/perl-Search-Xapian-1.0.4.0/README
+  /usr/share/doc/perl-Search-Xapian-1.0.5.0/Changes
+  /usr/share/doc/perl-Search-Xapian-1.0.5.0/README
   /usr/share/man/man3/Search.Xapian.3pm.gz
   /usr/share/man/man3/Search.Xapian.BM25Weight.3pm.gz
   /usr/share/man/man3/Search.Xapian.BoolWeight.3pm.gz
@@ -90,11 +85,13 @@ Files included in the binary package:
   /usr/share/man/man3/Search.Xapian.ValueIterator.3pm.gz
   /usr/share/man/man3/Search.Xapian.Weight.3pm.gz
   /usr/share/man/man3/Search.Xapian.WritableDatabase.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Search-Xapian.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.5.0-1 -----
+Version bump, built for perl-5.10.
 
 ----- version 1.0.4.0-1 -----
 Initial release for Cygwin.
