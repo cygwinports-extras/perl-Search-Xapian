@@ -1,0 +1,4 @@
+inherit perl
+
+HOMEPAGE="http://www.xapian.org/"
+SRC_URI="http://www.oligarchy.co.uk/xapian/${PV%.${PVP[3]}}/${ORIG_PN}-${PV}.tar.gz"
