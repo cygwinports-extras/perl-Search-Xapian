@@ -4,13 +4,13 @@ Perl bindings for the Xapian search engine library
 
 Runtime requirements:
   cygwin-1.5.25-15
-  libxapian15-1.0.7-1
+  libxapian15-1.0.8-1
   perl-5.10.0-5
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080523-2
-  cygport-0.3.12-1
+  binutils-20080524-2
+  cygport-0.4.0-1
   gcc-core-3.4.4-3
   make-3.81-1
 
@@ -19,21 +19,21 @@ Canonical website:
   http://search.cpan.org/dist/Search-Xapian/
 
 Canonical download:
-  http://www.oligarchy.co.uk/xapian/1.0.7/
+  http://www.oligarchy.co.uk/xapian/1.0.8/
   http://search.cpan.org/CPAN/authors/id/O/OL/OLLY/
 
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Search-Xapian-1.0.7.0-X-src.tar.bz2
+  unpack perl-Search-Xapian-1.0.8.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Search-Xapian-1.0.7.0-X.cygport all
+  cygport ./perl-Search-Xapian-1.0.8.0-X.cygport all
 
 This will create:
-  /usr/src/perl-Search-Xapian-1.0.7.0-X-src.tar.bz2
-  /usr/src/perl-Search-Xapian-1.0.7.0-X.tar.bz2
+  /usr/src/perl-Search-Xapian-1.0.8.0-X-src.tar.bz2
+  /usr/src/perl-Search-Xapian-1.0.8.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -67,8 +67,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Search/Xapian/WritableDatabase.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Search/Xapian/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Search/Xapian/Xapian.dll
-  /usr/share/doc/perl-Search-Xapian-1.0.7.0/Changes
-  /usr/share/doc/perl-Search-Xapian-1.0.7.0/README
+  /usr/share/doc/perl-Search-Xapian-1.0.8.0/Changes
+  /usr/share/doc/perl-Search-Xapian-1.0.8.0/README
   /usr/share/man/man3/Search.Xapian.3pm.gz
   /usr/share/man/man3/Search.Xapian.BM25Weight.3pm.gz
   /usr/share/man/man3/Search.Xapian.BoolWeight.3pm.gz
@@ -89,6 +89,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.8.0-1 -----
+Version bump.
 
 ----- version 1.0.7.0-1 -----
 Version bump.
